@@ -1,0 +1,23 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="ring"
+            android:innerRadiusRatio="3"
+            android:thicknessRatio="9"
+            android:useLevel="false">
+            <solid android:color="@color/abu_biru"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <rotate
+            android:fromDegrees="270"
+            android:pivotX="50%"
+            android:pivotY="50%">
+            <shape android:shape="ring"
+                android:innerRadiusRatio="3"
+                android:thicknessRatio="9"
+                android:useLevel="true">
+                <solid android:color="@color/biru_langit_variant"/>
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

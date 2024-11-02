@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Bagian kepala -->
+    <path
+        android:fillColor="#FAD7A0"
+        android:pathData="M54,18c-6.6,0 -12,5.4 -12,12s5.4,12 12,12 12,-5.4 12,-12 -5.4,-12 -12,-12z"/>
+
+    <!-- Bagian tubuh atas -->
+    <path
+        android:fillColor="#87CEFA"
+        android:pathData="M54,42c-6.6,0 -12,5.4 -12,12v24h24V54c0,-6.6 -5.4,-12 -12,-12z"/>
+
+    <!-- Bagian tangan kiri (diturunkan) -->
+    <path
+        android:fillColor="#87CEFA"
+        android:pathData="M42,54h-6v18h6V54z"/>
+
+    <!-- Bagian tangan kanan (mengangkat gelas) -->
+    <path
+        android:fillColor="#87CEFA"
+        android:pathData="M54,54c-1,1.5 -2,3 -3,4.5l-3,1.5 6,8.5 3,-1.5c1,-1.5 2,-3 3,-4.5L54,54z"/>
+
+    <!-- Bagian gelas -->
+    <path
+        android:fillColor="#87CEEB"
+        android:pathData="M50,48v20h16v-20H50m4,4h8v12h-8V52z"/>
+
+    <!-- Bagian air dalam gelas -->
+    <path
+        android:fillColor="#B0E0E6"
+        android:pathData="M54,48v16h8v-16H54m2,2h4v12h-4V50z"/>
+
+    <!-- Garis wajah (mulut) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M50,30c0,1.5 1.5,3 3,3s3,-1.5 3,-3" />
+
+    <!-- Garis wajah (mata kiri) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M48,27c0,0.5 0.5,1 1,1s1,-0.5 1,-1" />
+
+    <!-- Garis wajah (mata kanan) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M60,27c0,0.5 0.5,1 1,1s1,-0.5 1,-1" />
+
+    <!-- Menambahkan efek air minum -->
+    <path
+        android:fillColor="#00BFFF"
+        android:pathData="M60,33c-3,0 -5.4,2.4 -5.4,5.4s2.4,5.4 5.4,5.4 5.4,-2.4 5.4,-5.4 -2.4,-5.4 -5.4,-5.4z" />
+
+</vector>

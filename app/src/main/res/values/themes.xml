@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MinumDulu" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/biru_slate</item> <!-- tombol -->
+        <item name="colorPrimaryVariant">@color/biru_langit_variant</item> <!-- tombol -->
+        <item name="colorOnPrimary">@color/abu_terang</item> <!-- teks tombol alarm -->
+        <item name="colorSecondary">@color/biru_langit_variant</item>
+        <item name="colorSecondaryVariant">@color/biru_langit_variant</item>
+        <item name="colorOnSecondary">@color/biru_slate</item>
+        <item name="android:textColorPrimary">@color/biru_slate</item> <!-- jam alarm -->
+        <item name="android:textColorSecondary">@color/biru_slate</item> <!-- garis jam alarm -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/abu_terang</item>
+    </style>
+
+    <style name="Theme.MinumDulu" parent="Base.Theme.MinumDulu">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/biru_slate</item> <!-- tombol -->
+        <item name="colorPrimaryVariant">@color/biru_langit_variant</item> <!-- tombol -->
+        <item name="colorOnPrimary">@color/abu_terang</item> <!-- teks tombol alarm -->
+        <item name="colorSecondary">@color/biru_langit_variant</item>
+        <item name="colorSecondaryVariant">@color/biru_langit_variant</item>
+        <item name="colorOnSecondary">@color/biru_slate</item>
+        <item name="android:textColorPrimary">@color/biru_slate</item> <!-- jam alarm -->
+        <item name="android:textColorSecondary">@color/biru_slate</item> <!-- garis jam alarm -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/abu_terang</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <!-- Style for circular ProgressBar -->
+    <style name="ProgressBarStyle" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/circular_progress</item>
+    </style>
+</resources>

@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/abu_terang">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/jadwalMinum"
+        android:textColor="@color/biru_slate"
+        android:textSize="24sp"
+        android:fontFamily="@font/font2"
+        android:textStyle="bold" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:timePickerMode="spinner" />
+
+    <Button
+        android:id="@+id/buttonAddAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/tambahAlarm" />
+
+    <Button
+        android:id="@+id/buttonClearAlarms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAddAlarm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/hapusAlarms" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonClearAlarms"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/alarmListLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

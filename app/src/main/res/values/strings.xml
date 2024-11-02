@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DrinkTracker</string>
+    <string name="channel_name">Minum Dulu Channel</string>
+    <string name="targetAir">Target 2000 ml</string>
+    <string name="konsumsi">%1$d ml</string>
+    <string name="inisialKonsumsi">0 ml</string>
+    <string name="tombol_50ml">50ml</string>
+    <string name="tombol_100ml">100ml</string>
+    <string name="tombol_250ml">250ml</string>
+    <string name="tombol_350ml">350ml</string>
+    <string name="tombol_500ml">500ml</string>
+    <string name="tombolJadwal">Lihat Jadwal</string>
+    <string name="tombolAktifitas">Lihat Aktivitas</string>
+    <string name="tombolPengaturan">Pengaturan</string>
+    <string name="tombolReset">Reset Aplikasi</string>
+    <string name="aktifitasMinum">Aktivitas Minum</string>
+    <string name="jadwalMinum">Jadwal Minum</string>
+    <string name="tambahAlarm">Tambah Alarm</string>
+    <string name="hapusAlarms">Hapus Alarm</string>
+    <string name="channelDeskripsi">Tubuh Perlu Asupan Air yang Cukup!</string>
+    <string name="teksNotifikasi">Waktunya Minum!</string>
+
+</resources>

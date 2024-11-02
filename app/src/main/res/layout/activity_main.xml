@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/abu_terang">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"
+        android:textColor="@color/biru_slate"
+        android:textSize="40sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:fontFamily="@font/fontj"/>
+
+    <!-- Target Air -->
+    <TextView
+        android:id="@+id/textTarget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/targetAir"
+        android:textColor="@color/biru_slate"
+        android:textSize="20sp"
+        android:fontFamily="@font/font2"/>
+
+    <!-- ProgressBar Horizontal -->
+    <ProgressBar
+        android:id="@+id/progressBarHorizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTarget"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:max="2000"
+        android:progress="0"
+        android:progressTint="@color/biru_lembut" />
+
+    <!-- ProgressBar Bulat -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/ProgressBarStyle"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/progressBarHorizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:max="2000"
+        android:progress="0"
+        android:progressTint="@color/biru_lembut" />
+
+    <!-- Konsumsi Air -->
+    <TextView
+        android:id="@+id/textViewConsumed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBarHorizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/font3"
+        android:text="@string/inisialKonsumsi"
+        android:textColor="@color/biru_slate"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <!-- Tombol-tombol Air -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewConsumed"
+        android:layout_marginTop="150dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/button50ml"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton50ml"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/abu_terang"
+                android:contentDescription="@string/tombol_50ml"
+                android:src="@drawable/cai" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="@string/tombol_50ml"
+                android:textColor="@color/biru_slate"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button100ml"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton100ml"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/abu_terang"
+                android:contentDescription="@string/tombol_100ml"
+                android:src="@drawable/cai" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="@string/tombol_100ml"
+                android:textColor="@color/biru_slate"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button250ml"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton250ml"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/abu_terang"
+                android:contentDescription="@string/tombol_250ml"
+                android:src="@drawable/cai" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="@string/tombol_250ml"
+                android:textColor="@color/biru_slate"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button350ml"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton350ml"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/abu_terang"
+                android:contentDescription="@string/tombol_350ml"
+                android:src="@drawable/cai" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="@string/tombol_350ml"
+                android:textColor="@color/biru_slate"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button500ml"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton500ml"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/abu_terang"
+                android:contentDescription="@string/tombol_500ml"
+                android:src="@drawable/cai" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font3"
+                android:text="@string/tombol_500ml"
+                android:textColor="@color/biru_slate"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Tombol-tombol lainnya -->
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/buttonSchedule"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/abu_terang"
+            android:contentDescription="@string/tombolJadwal"
+            android:src="@drawable/jam" />
+
+        <ImageButton
+            android:id="@+id/buttonActivities"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/abu_terang"
+            android:contentDescription="@string/tombolAktifitas"
+            android:src="@drawable/act" />
+
+        <ImageButton
+            android:id="@+id/buttonSettings"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/abu_terang"
+            android:contentDescription="@string/tombolPengaturan"
+            android:src="@drawable/set" />
+    </LinearLayout>
+</RelativeLayout>

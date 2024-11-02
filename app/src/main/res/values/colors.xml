@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="biru_langit_terang">#A3D9FF</color>
+    <color name="biru_slate">#07223B</color>
+    <color name="abu_terang">#F2F5FF</color>
+    <color name="abu_biru">#E0EFFF</color>
+    <color name="biru_lembut">#70BFFF</color>
+    <color name="biru_gelap">#0A2A46</color>
+    <color name="biru_langit_variant">#40396E</color>
+    <color name="separator_color">#F2F5FF</color>
+</resources>
